@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: rgb(27, 27, 27);
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.navBar{
+    width: 100%;
+    min-height: 100px;
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+    border-bottom: 2px transparent solid;
+    border-image: linear-gradient(to right, red, blue);
+    border-image-slice: 1;
+}
+
+.navBar img{
+    border: 3px black solid;
+    border-radius: 50%;
+}
+
+.main-container{
+    width: 100%;
+    min-height: 100vh - 100px;
+    display: flex;
+}
+
+.side-bar {
+    border-right: 1px solid white;
+    min-width: 25%;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 50px 10px;
+}
+select{
+    appearance: none;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    padding: 5px;
+    outline: none;
+    margin: 10px 0;
+}
+select::-ms-expand{
+    display: none;
+}
+option{
+    background-color: rgb(36, 36, 36);
+    color: white;
+    border-radius: 10px;
+}
+
+.main-data-container{
+    min-width: 75%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 40px;
+}
+.main-data-container *{
+    margin-top: 10px;
+}
+.main-data-container > div{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+}
+.main-container img{
+    margin: 10px 0;
+    border-radius: 50%;
+    border: 1px white solid;
+}
+
+table{
+    flex: 1;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    border-radius: 10px;
+    border: 2px white solid;
+    padding: 10px;
+}
+
+td{ 
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 10px;
+    text-align: center;
+}
+
+.members{
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.member-card{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.member-card a{
+    text-decoration: none;
+    color: white;
+}

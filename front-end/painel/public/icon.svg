@@ -1,0 +1,22 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <circle cx="100" cy="100" r="100" fill="#d93b28"/>
+  
+  <!-- Parte clara do rosto -->
+  <ellipse cx="100" cy="120" rx="70" ry="60" fill="#ffd29c"/>
+  
+  <!-- Olhos -->
+  <ellipse cx="70" cy="80" rx="15" ry="20" fill="#fff"/>
+  <ellipse cx="130" cy="80" rx="15" ry="20" fill="#fff"/>
+  
+  <!-- Pupilas -->
+  <circle cx="70" cy="85" r="8" fill="#000"/>
+  <circle cx="130" cy="85" r="8" fill="#000"/>
+  
+  <!-- Sobrancelhas -->
+  <path d="M50,60 Q70,40 90,60" stroke="#6b1c0d" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M110,60 Q130,40 150,60" stroke="#6b1c0d" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Boca -->
+  <path d="M60,150 Q100,170 140,150" stroke="#6b1c0d" stroke-width="8" fill="none" stroke-linecap="round"/>
+</svg>
